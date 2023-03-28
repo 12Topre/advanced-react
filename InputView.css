@@ -1,0 +1,19 @@
+.input-view {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5em;
+  padding: 1em;
+  background-color: #d3d3d3;
+}
+
+.input-view button {
+  font-size: 1.5em;
+  padding: 0.5em;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.input-view button:active {
+  background-color: #bfbfbf;
+}
